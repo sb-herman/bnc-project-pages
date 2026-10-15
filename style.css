@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    background:#525659;
+}
+
+.page{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+img{
+    width:auto;
+    max-width:100%;
+    height:auto;
+    display:block;
+}
