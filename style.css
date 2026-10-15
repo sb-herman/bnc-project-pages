@@ -1,17 +1,18 @@
 body{
     margin:0;
-    background:#525659;
-}
-
-.page{
-    width:100%;
+    background:#0d1117;
     display:flex;
     justify-content:center;
+    padding:40px;
 }
 
-img{
+.page img{
+
     width:auto;
-    max-width:100%;
+
     height:auto;
-    display:block;
+
+    max-width:70vw;
+
+    max-height:85vh;
 }
