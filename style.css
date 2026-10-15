@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding:20px;
+    background:#ececec;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#222;
+}
+
+.page{
+    width:210mm;
+    min-height:297mm;
+    margin:auto;
+    background:white;
+    padding:18mm;
+    box-sizing:border-box;
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
+}
+
+.letterhead{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.letterhead img{
+    height:70px;
+}
+
+.header-right{
+    text-align:right;
+    font-size:11px;
+    line-height:1.4;
+}
+
+.callcenter{
+    font-weight:700;
+    color:#0b67b2;
+}
+
+h1{
+    font-size:22px;
+    color:#003865;
+    text-align:center;
+    margin:25px 0;
+}
+
+h2{
+    color:#003865;
+    font-size:16px;
+    margin-top:24px;
+}
+
+p, li{
+    line-height:1.65;
+    font-size:13px;
+}
+
+.highlight{
+    background:#eef6ff;
+    border-left:4px solid #0b67b2;
+    padding:12px;
+    margin:15px 0;
+}
+
+.menu-box,
+.email-box{
+    background:#f7f7f7;
+    padding:12px;
+    border:1px solid #d8d8d8;
+    border-radius:4px;
+    margin:12px 0;
+}
+
+.signature{
+    margin-top:40px;
+}
+
+@media print{
+    body{
+        background:white;
+        padding:0;
+    }
+
+    .page{
+        width:auto;
+        min-height:auto;
+        margin:0;
+        box-shadow:none;
+    }
+}
+
+@media(max-width:768px){
+
+    .page{
+        width:auto;
+        min-height:auto;
+        padding:25px;
+    }
+
+    .letterhead{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .header-right{
+        text-align:center;
+    }
+}
+``
