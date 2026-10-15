@@ -7,7 +7,7 @@ body{
 }
 
 .page img{
-    width:900px;
-    max-width:100%;
+    width:800px;
+    max-width:none;
     height:auto;
 }
